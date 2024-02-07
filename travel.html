@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Roboto&family=Ysabeau+Office:wght@900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Roboto&family=Ysabeau+Office:wght@900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" id="logo"><img src="images/logo.png" alt="" width="110px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span><i class="fa-solid fa-bars bg-light"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto fs-5">
+                    <li class="nav-item ">
+                        <a class="nav-link text-light active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#book">Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#packages">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#about">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="home">
+        <div class="content">
+            <h5>Welcome To World</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>Travel teaches us about humanity and gives us an appreciation.</p>
+            <a href="#book">Book Place</a>
+        </div>
+    </div>
+    <section class="book" id="book">
+        <div class="container">
+            <div class="main-text">
+                <h1>B<span>ook</span> <span>Now</span></h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/hike 5.jpg">
+                    </div>
+                </div>
+                <div class="col-md-6 py-3 py-md-0">
+                    <form action="#">
+                        <input type="text" class="form-control" placeholder="Where To" required><br>
+                        <input type="text" class="form-control" placeholder="How Many" required><br>
+                        <input type="date" class="form-control" placeholder="Arrivals" required><br>
+                        <input type="date" class="form-control" placeholder="Leaving" required><br>
+                        <textarea class="form-control" rows="5" name="text"
+                            placeholder="Enter Your Name & Details"></textarea>
+                        <input type="submit" value="Book Now" class="submit" required>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="packages" id="packages">
+        <div class="container">
+            <div class="main-txt">
+                <h1>P<span>ackages</span></h1>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/uk1.webp" alt="" style="height: 250px;">
+                        <div class="card-body">
+                            <h3>Uttarakhand</h3>
+                            <p>Uttarakhand, a state in northern India crossed by the Himalayas, is known for its Hindu
+                                pilgrimage sites.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>&#8377;5500</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/sikkim.jpg" alt="" style="height: 250px;">
+                        <div class="card-body">
+                            <h3>Sikkim</h3>
+                            <p>Sikkim is a state in northeast India, bordered by Bhutan, Tibet and Nepal. Part of the
+                                Himalayas,</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>&#8377;5000</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/https___media.insider.in_image_upload_c_crop,g_custom_v1580318465_epbzs1rysoadj0a0lptg.jpg"
+                            alt="" style="height: 250px;">
+                        <div class="card-body">
+                            <h3>Spiti Valley</h3>
+                            <p>Spiti is a high-altitude region of the Himalayas, located in the north-eastern part of
+                                the northern Indian state</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star  checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>&#8377;4000</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/himachal.webp" alt="" style="height: 250px;">
+                        <div class="card-body">
+                            <h3>Himachal Pradesh</h3>
+                            <p>Himachal Pradesh is a northern Indian state in the Himalayas. It's home to scenic
+                                mountain towns</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>&#8377;3000</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/Kailash-Barkha.jpg" alt="" style="height: 250px;">
+                        <div class="card-body">
+                            <h3>Mount Kailash</h3>
+                            <p>Mount Kailash is a mountain in Ngari Prefecture, Tibet Autonomous Region of China.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>&#8377;6000</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/nepal.webp" alt="" style="height: 250px;">
+                        <div class="card-body">
+                            <h3>Nepal</h3>
+                            <p>Nepal, officially the Federal Democratic Republic of Nepal, is a landlocked country in
+                                South Asia.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong> &#8377;4500</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <div class="main-txt">
+                <h1>S<span>ervices</span></h1>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fa-solid fa-hotel"></i>
+                        <div class="card-body">
+                            <h3 class="text-nowrap">Affordable Hotel</h3>
+                            <p>Book at Over 900,000 Hotels Worldwide now. Quick, Easy Booking. Great Rates.Choose From a
+                                Wide Range of Properties Which Booking.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fa-solid fa-utensils"></i>
+                        <div class="card-body">
+                            <h3>Food & Drinks</h3>
+                            <p>Book at Over 900,000 Hotels Worldwide now. Quick, Easy Booking. Great Rates.Choose From a
+                                Wide Range of Properties Which Booking.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fas fa-bullhorn"></i>
+                        <div class="card-body">
+                            <h3>Safty Guide</h3>
+                            <p>Book at Over 900,000 Hotels Worldwide now. Quick, Easy Booking. Great Rates.Choose From a
+                                Wide Range of Properties Which Booking.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="card-body">
+                            <h3 class="text-nowrap">Location</h3>
+                            <p>Book at Over 900,000 Hotels Worldwide now. Quick, Easy Booking. Great Rates.Choose From a
+                                Wide Range of Properties Which Booking.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        <div class="card-body">
+                            <h3>Hiking</h3>
+                            <p>Book at Over 900,000 Hotels Worldwide now. Quick, Easy Booking. Great Rates.Choose From a
+                                Wide Range of Properties Which Booking.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fa-solid fa-mountain"></i>
+                        <div class="card-body">
+                            <h3>Mountains</h3>
+                            <p>Book at Over 900,000 Hotels Worldwide now. Quick, Easy Booking. Great Rates.Choose From a
+                                Wide Range of Properties Which Booking.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="main-txt">
+                <h1>G<span>allery</span></h1>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/c3.jpg" alt="" style="height: 270px;">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/with-god's-grace.jpg" alt="" style="height: 270px;">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/pauri-garhwal-3122902.jpg" alt="" style="height: 270px;">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/img1.webp" alt="" style="height: 270px;">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/img2.jpg" alt="" style="height: 270px;">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/img5.jpg" alt="" style="height: 270px;">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="main-txt">
+                <h1>A<span>bout Us</span></h1>
+            </div>
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-md-6 py-3 py-md-0">
+                    <video autoplay loop muted style="width: 100%; position: relative;">
+                        <source src="video/pexels-sebissport-travel-5715137 (1080p).mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-6 py-3 py-md-0">
+                    <h2>How Travel Agency Work</h2>
+                    <p>If you travel, you will not only learn about foreign cultures, but about your own as well. You
+                        will notice the cultural
+                        differences, and will find out what makes your culture unique. After retrurning from a long
+                        journey, you will see your
+                        country with new eyes.You can learn a lot about yourself through travelling. You can observe how
+                        you feel beeing far from your country. You
+                        will find out how you feel about your homeland. You will realise how you really feel about
+                        foreign people. You will find
+                        out how much you know/do not know about the world. You will be able to observe how you react in
+                        completely new
+                        situations. You will test your language, orientational and social skills. You will not be the
+                        same person after
+                        returning home.
+                        If you travel, you may learn a lot of useful things. These things can be anything from a new
+                        recepie, to a new, more
+                        effective solution to an ordinary problem or a new way of creating something.
+                    </p>
+                    <button id="about-btn">Read More...</button>
+                </div>
+
+            </div>
+            <div class="container">
+                <!-- <div class="main-txt">
+                    <h1>About<span> Us</span></h1>
+                </div> -->
+                <div class="row flex-lg-row-reverse py-5" style="margin-top: 50px;">
+                    <div class="col-md-6 py-3 py-md-0">
+                        <video autoplay loop muted style="width: 100%; position: relative;">
+                            <source src="video/v1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6 py-3 py-md-0">
+                        <h2 class="text-center">Explore The World</h2>
+                        <p class="py-3">There are numerous benefits to travelling if we think about it. The first one
+                            being, we get
+                            to meet new people. When you
+                            meet new people, you get the opportunity to make new friends. It may be a fellow traveller
+                            or the local you asked for
+                            directions.
+
+                            Moreover, new age technology has made it easier to keep in touch with them. Thus, it offers
+                            not only a great way to
+                            understand human nature but also explore new places with those friends to make your trip
+                            easy.
+
+                            Similar to this benefit, travelling makes it easier to understand people. You will learn how
+                            other people eat, speak,
+                            live and more. When you get out of your comfort zone, you will become more sensitive towards
+                            other cultures and the
+                            people.
+                        </p>
+                        <!-- <button id="about-btn">Read More...</button> -->
+                    </div>
+
+                </div>
+    </section>
+    <footer id="footer">
+        <h1>T<span>ravel</span></h1>
+        <P>During travelling you will meet people that are very different from you. If you travel enough, you will learn
+            to accept
+            and appreciate these differences. Traveling makes you more open and accepting.</P>
+        <div class="social-links">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+        </div>
+        <div class="credit">
+            <p>Designed By<a href="#"> Rishabh Negi</a></p>
+        </div>
+        <div class="copyright">
+            <P>&copy;copyright Rishabh Negi. All Rights Reserved</P>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
